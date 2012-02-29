@@ -23,7 +23,6 @@ xhr.onload = function() {
 	table.data = data;
 };
 xhr.onerror = function(e) {
-	// should do something more robust
 	alert('Network error '+e.error);
 };
 
