@@ -4,3 +4,4 @@ tmp
 *.pyo
 .DS_Store
 build*
+.fastdev.lock
