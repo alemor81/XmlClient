@@ -10,7 +10,6 @@ var url="http://apod.nasa.gov/apod.rss"; //  rss feed url
 var xhr = Titanium.Network.createHTTPClient();
 
 xhr.onload = function() {
-	// Data is returned from the blog, start parsing
 	var doc = this.responseXML.documentElement;
 
 	var items = doc.getElementsByTagName("item");
